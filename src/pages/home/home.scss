@@ -1,0 +1,86 @@
+page-home {
+   
+   .body {
+     background: url('../assets/imgs/slide1.jpg')no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+   }
+
+    .ion-label[fixed] {
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+    .round {
+      
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  
+  -moz-box-shadow: 8px 8px 12px #aaa; 
+  -webkit-box-shadow: 8px 8px 12px #aaa; 
+   box-shadow: 1px 1px 10px #555;
+
+    }
+
+  .login-button {
+        top:10%;
+          width: 90%;
+          border-radius: 30px;
+          font-size: 0.9em;
+        //   background-color: transparent;
+          border: 1px solid #fff;
+          
+          margin-left:5%;
+          margin-right:5%;
+      }
+      .noneBorder{
+        position: absolute;
+        right: 15px;
+        height: 2.6rem;
+        padding: 1px 4px !important;
+        background-color: #004368;
+        -webkit-box-shadow : 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0px rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+      }
+      .noBorder{
+        position: absolute;
+        height: 2.6rem;
+        right: 60px;
+        padding: 1px 4px !important;
+        background-color: #004368;
+        -webkit-box-shadow : 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 0px 0px rgba(0, 0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0);
+      }
+.circle {
+    border-radius: 100%;
+    
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	position: relative;
+	line-height: 200px;
+	background-color: #eaeaea;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eaeaea));
+	background-image: -webkit-linear-gradient(top, #f6f6f6, #eaeaea);
+	background-image: -moz-linear-gradient(top, #f6f6f6, #eaeaea); 
+	background-image: -ms-linear-gradient(top, #f6f6f6, #eaeaea); 
+	background-image: -o-linear-gradient(top, #f6f6f6, #eaeaea);
+	background-image: linear-gradient(top, #f6f6f6, #eaeaea);
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	
+    background:black;
+    -moz-box-shadow: 8px 8px 16px #fff; 
+    -webkit-box-shadow: 8px 8px 16px #fff; 
+   box-shadow: 1px 1px 16px #fff;
+    opacity : 0.8;
+    position: absolute;
+    top:30%;
+    
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+}

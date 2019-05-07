@@ -1,0 +1,114 @@
+<ion-header>
+    <ion-navbar color="primary">
+       <ion-title>
+           
+         Paramètrage :
+           <button ion-button  class="noneBorder" large >
+              <ion-icon ios="ios-checkmark-circle" md="md-checkmark-circle"></ion-icon>
+            </button>
+       </ion-title>
+       
+     </ion-navbar> 
+     
+   </ion-header>
+    
+ 
+      <ion-content>
+          <ion-list no-lines>
+              
+                 <form [formGroup]="">
+              
+                     <ion-item>
+                         <ion-label floating>First Name</ion-label>
+                         <ion-input formControlName="firstName" type="text"></ion-input>
+                     </ion-item>
+              
+                     <ion-item>
+                         <ion-label floating>Last Name</ion-label>
+                         <ion-input formControlName="lastName" type="text"></ion-input>
+                     </ion-item>
+              
+                     <ion-item>
+                         <ion-label floating>Age</ion-label>
+                         <ion-input formControlName="age" type="number"></ion-input>
+                     </ion-item>
+              
+                 </form>
+              
+             </ion-list>
+      </ion-content>
+ 
+
+
+
+
+
+   <!-- <ion-content class="body" color="secondary">
+    
+      <ion-list no-lines>
+          
+             <form >
+          
+                 <ion-item>
+                     <ion-label floating>First Name</ion-label>
+                     <ion-input formControlName="firstName" type="text"></ion-input>
+                 </ion-item>
+          
+                 <ion-item>
+                     <ion-label floating>Last Name</ion-label>
+                     <ion-input formControlName="lastName" type="text"></ion-input>
+                 </ion-item>
+          
+                 <ion-item>
+                     <ion-label floating>Age</ion-label>
+                     <ion-input formControlName="age" type="number"></ion-input>
+                 </ion-item>
+          
+             </form>
+          
+         </ion-list>
+    -->
+     <!-- <img src="{{pathForImage(lastImage)}}" style="width: 100%" [hidden]="lastImage === null"> -->
+     
+     <!-- <ion-card *ngIf="dataScanned !== null"> 
+         <ion-card-header>
+     
+           <h2>Resultat du scanning :</h2>
+         </ion-card-header>
+         <ion-card-content>
+           <ul>
+             <li> {{dataScanned}}</li>
+           </ul>
+         </ion-card-content>
+       </ion-card> -->
+     <!--
+       <ion-card *ngIf="dataScanned"> 
+       <ion-card-header>
+   
+         <h2>Resultat du scanning :</h2>
+       </ion-card-header>
+       <ion-card-content>
+         <ul>
+           <li>{{dataScanned.cancelled }}</li>
+           <li>{{selectedProduct.text}}</li>
+           <li>{{selectedProduct.format}}</li>
+         </ul>
+       </ion-card-content>
+     </ion-card>
+     -->
+   <!-- </ion-content> -->
+    
+   <!-- <ion-footer>
+     <ion-toolbar color="primary">
+       <ion-buttons>
+         <button ion-button icon-left (click)="takePicture()">
+           <ion-icon name="camera"></ion-icon>photo
+         </button>
+         <button ion-button icon-left (click)="uploadImage()" [disabled]="lastImage === null"> 
+             <button ion-button icon-left (click)="scan()">
+           <ion-icon name="qr-scanner"></ion-icon>scanner
+         </button>
+   
+       </ion-buttons>
+     </ion-toolbar>
+   </ion-footer> -->

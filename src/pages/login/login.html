@@ -1,0 +1,92 @@
+
+<style >
+ .center {
+   padding-left:5%;
+   padding-right:5%;
+   padding:40px ; 
+ }
+</style>
+
+<!-- <ion-content padding>
+ 
+  <ion-row class="login-logo">
+    <ion-col><img src="http://placehold.it/100x100" /></ion-col>
+  </ion-row>
+ 
+  <ion-row class="login-form">
+    <ion-col>
+      <ion-list inset>
+ 
+        <ion-item>
+          <ion-label><ion-icon name="person"></ion-icon></ion-label>
+          <ion-input [(ngModel)]="username" placeholder="username" type="text"></ion-input>
+        </ion-item>
+ 
+        <ion-item>
+          <ion-label><ion-icon name="lock"></ion-icon></ion-label>
+          <ion-input [(ngModel)]="password" placeholder="password" type="password"></ion-input>
+        </ion-item>
+ 
+      </ion-list>
+ 
+      <button ion-button (click)="login()" primary class="login-button">Login</button>
+ 
+    </ion-col>
+  </ion-row>
+ 
+    <ion-row>
+      <ion-col>
+        <button (click)="launchSignup()" class="create-account">Create an Account</button>
+      </ion-col>
+  </ion-row>
+ 
+</ion-content> -->
+
+<ion-content padding>
+
+  <ion-row class="login-logo">
+    <ion-col><span class="bold">Authentification :</span></ion-col>
+  </ion-row> 
+ 
+  <ion-row class="login-form">
+    <ion-col>
+      <ion-list inset>
+ 
+        <ion-item>
+          <ion-label><ion-icon name="person"></ion-icon></ion-label>
+          <ion-input [(ngModel)]="userData.username" placeholder="Utilisateur" required type="text"></ion-input>
+        </ion-item>
+ 
+        <ion-item>
+          <ion-label><ion-icon name="lock"></ion-icon></ion-label>
+          <ion-input [(ngModel)]="userData.password" placeholder="Mot de passe" required  type="password"></ion-input>
+        </ion-item>
+ 
+      </ion-list>
+      <!-- <div *ngIf="error" class="alert alert-danger">{{error}}</div> -->
+      <button ion-button  primary class="login-button"  (click)="login()" >Login</button>
+ 
+    </ion-col>
+
+  </ion-row>
+ 
+    <ion-row>
+      <ion-col>
+        <div class="footer">
+          <span class="clair">OPTIMISATION DES TOURNEES DE LIVRAISON</span>
+          <p>
+              Mettre en place une solution pour
+              optimiser les tournées de véhicules afin d'accroître la satisfaction des
+              clients tout en menant une stratégie de réduction des coûts
+              logistiques.
+          </p>
+       </div>
+        <!-- <button  class="create-account">Create an Account</button> -->
+      </ion-col>
+  </ion-row>
+
+</ion-content>
+
+
+
+
